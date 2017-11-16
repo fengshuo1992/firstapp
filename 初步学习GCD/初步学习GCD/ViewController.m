@@ -51,7 +51,7 @@
 
 - (void)VIewOut
 {
-    NSLog(@"我添加了一个方法");
+    NSLog(@"我添加了一个方法 怎么还是不行呢");
 }
 void task(void * param)
 {
