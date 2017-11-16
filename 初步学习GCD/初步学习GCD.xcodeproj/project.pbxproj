@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95F1143B1FBD75C20002A052 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F1143A1FBD75C20002A052 /* Person.m */; };
 		E8E0B79F1EF265F1004D19D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E0B79E1EF265F1004D19D1 /* main.m */; };
 		E8E0B7A21EF265F1004D19D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E0B7A11EF265F1004D19D1 /* AppDelegate.m */; };
 		E8E0B7A51EF265F1004D19D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E0B7A41EF265F1004D19D1 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		95F114391FBD75C20002A052 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		95F1143A1FBD75C20002A052 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		E8E0B79A1EF265F1004D19D1 /* 初步学习GCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "初步学习GCD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E0B79E1EF265F1004D19D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E8E0B7A01EF265F1004D19D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				E8E0B7A41EF265F1004D19D1 /* ViewController.m */,
 				E8EB77101F03CB0100594B04 /* NetworkHelper.h */,
 				E8EB77111F03CB0100594B04 /* NetworkHelper.m */,
+				95F114391FBD75C20002A052 /* Person.h */,
+				95F1143A1FBD75C20002A052 /* Person.m */,
 				E8E0B7A61EF265F1004D19D1 /* Main.storyboard */,
 				E8E0B7A91EF265F1004D19D1 /* Assets.xcassets */,
 				E8E0B7AB1EF265F1004D19D1 /* LaunchScreen.storyboard */,
@@ -283,6 +288,7 @@
 			files = (
 				E8EB77121F03CB0100594B04 /* NetworkHelper.m in Sources */,
 				E8E0B7A51EF265F1004D19D1 /* ViewController.m in Sources */,
+				95F1143B1FBD75C20002A052 /* Person.m in Sources */,
 				E8E0B7A21EF265F1004D19D1 /* AppDelegate.m in Sources */,
 				E8E0B79F1EF265F1004D19D1 /* main.m in Sources */,
 			);
