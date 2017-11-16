@@ -51,7 +51,7 @@
 
 - (void)VIewOut
 {
-    NSLog(@"我添加了一个方法 怎么还是不行呢");
+    NSLog(@"我添加了一个方法 怎么还是不行呢  怎么有冲突了");
 }
 void task(void * param)
 {
