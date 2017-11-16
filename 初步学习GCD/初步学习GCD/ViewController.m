@@ -25,7 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-  
+    NSLog(@"%@", @"我就是试试心不行");
     
     dispatch_async_f(dispatch_get_global_queue(0, 0), NULL, task);
     
