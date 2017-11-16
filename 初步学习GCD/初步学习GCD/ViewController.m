@@ -30,6 +30,7 @@
     
     NSLog(@"%@", @"怎么会是呢");
     
+    NSLog(@"开始着手2.0版本的开发");
     
     dispatch_async_f(dispatch_get_global_queue(0, 0), NULL, task);
     
