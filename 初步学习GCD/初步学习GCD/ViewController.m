@@ -26,7 +26,7 @@
     [super viewDidLoad];
     
     NSLog(@"%@", @"我就是试试心不行");
-    
+    NSLog(@"李四你说米说不是傻逼");
     dispatch_async_f(dispatch_get_global_queue(0, 0), NULL, task);
     
     self.iamgeView  = [[UIImageView alloc] init];
