@@ -49,7 +49,10 @@
     
 }
 
-
+- (void)fixBug
+{
+    NSLog(@"修改了1.0的bug");
+}
 void task(void * param)
 {
 
