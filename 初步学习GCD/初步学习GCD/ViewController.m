@@ -29,6 +29,8 @@
     NSLog(@"李四你说米说不是傻逼");
     
     NSLog(@"%@", @"怎么会是呢");
+    
+    NSLog(@"%@", @"怎么下载下来就冲突呢");
     dispatch_async_f(dispatch_get_global_queue(0, 0), NULL, task);
     
     self.iamgeView  = [[UIImageView alloc] init];
