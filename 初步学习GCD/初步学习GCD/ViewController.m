@@ -50,6 +50,10 @@
     
 }
 
+- (void)Version
+{
+    NSLog(@"这个是2.0d的版本");
+}
 
 void task(void * param)
 {
