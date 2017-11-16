@@ -31,12 +31,6 @@
     NSLog(@"%@", @"怎么会是呢");
     
     NSLog(@"%@", @"怎么下载下来就冲突呢");
-    
-    
-    
-    
-    
-    NSLog(@"更新一下东西");
     dispatch_async_f(dispatch_get_global_queue(0, 0), NULL, task);
     
     self.iamgeView  = [[UIImageView alloc] init];
