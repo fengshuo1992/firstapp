@@ -8,13 +8,16 @@
 
 #import "ViewController.h"
 #import "NetworkHelper.h"
-
-
-
+#import "UIView+BordView.h"
+#import "FSLabel.h"
+#import "STSegmentView.h"
 
 @interface ViewController ()
+{
+    FSLabel *testView;
+}
 @property (nonatomic, strong)dispatch_source_t time;
-
+@property (nonatomic, strong) UILabel * label;
 @property (nonatomic, strong) UIImage * iamge;
 @property (nonatomic, strong) UIImage * iamge1;
 @property (nonatomic, strong) UIImageView * iamgeView;
@@ -24,6 +27,33 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+//    STSegmentView *exampleSegmentView = [[STSegmentView alloc]initWithFrame:CGRectMake(0, 30, self.view.bounds.size.width, 50)];
+//    exampleSegmentView.titleArray = @[@"test1",@"test2",@"test3",@"test4", @"test5", @"test6",@"test7",@"test8",@"test9"];
+//    exampleSegmentView.selectedBackgroundColor = [UIColor redColor];
+//    exampleSegmentView.selectedBgViewCornerRadius = 25;
+//    [self.view addSubview: exampleSegmentView];
+    
+    UITextField * textFiled = [[UITextField alloc] initWithFrame:CGRectMake(0, 100,500, 50)];
+    textFiled.placeholder = @"请输入字符";
+    textFiled.backgroundColor = [UIColor lightGrayColor];
+    textFiled.font = [UIFont systemFontOfSize:18];
+    [textFiled addTarget:self action:@selector(textViewChange:) forControlEvents:UIControlEventEditingChanged];
+    [self.view addSubview:textFiled];
+    
+  
+    
+    UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(100, 200, 200, 100)];
+    label.backgroundColor = [UIColor lightGrayColor];
+    self.label = label;
+    [self.view addSubview:label];
+    
+//    testView = [[FSLabel alloc] initWithFrame:CGRectMake(80.0f, 280.0f, 300.0f, 100.0f)];
+//
+//    testView.font = [UIFont systemFontOfSize:17];
+//    [self.view addSubview:testView];
+////    [testView borderForColor:[UIColor redColor] borderWidth:1 borderType:UIBorderSideTypeAll];
     
     NSLog(@"%@", @"我就是试试心不行");
     NSLog(@"李四你说米说不是傻逼");
@@ -49,6 +79,39 @@
 //    [self GCDOthre];
     
 }
+
+- (void)textViewChange:(UITextField *)text
+{
+//    CGSize size = [text.text boundingRectWithSize:CGSizeMake(400, CGFLOAT_MAX) options:NSStringDrawingTruncatesLastVisibleLine | NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:17]} context:nil].size;
+//    testView.text = text.text;
+//    testView.frame =  CGRectMake(80.0f, 280.0f, size.width, 100.0f);
+//    testView.heights = size.width;
+    self.label.text = [self userNameAddasterisk:text.text];
+    
+}
+
+- (NSString *)userNameAddasterisk:(NSString *)name
+{
+    if (name.length > 0) {
+        if (name.length == 1) {
+            name  =  @"*";
+        }else if (name.length == 2){
+            name =  [name stringByReplacingCharactersInRange:NSMakeRange(0, 1) withString:@"*"];
+        }else{
+            NSString * newString = [NSMutableString string];
+            
+            for (int i = 0; i < name.length - 2; i++) {
+              newString=  [[newString stringByAppendingString:@"*"] mutableCopy];
+            }
+            
+            if (newString.length == (name.length - 2)) {
+               name =  [name stringByReplacingCharactersInRange:NSMakeRange(1, name.length - 2) withString:[newString copy]];
+            }
+        }
+    }
+    return name;
+}
+
 
 - (void)Version
 {
