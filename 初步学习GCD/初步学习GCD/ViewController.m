@@ -67,6 +67,7 @@
     
     
     NSLog(@"%@", @"我在分支上修改了东西 你看看");
+    NSLog(@"%@", @"我也在分支上修改了东西 你也看看");
     
     dispatch_async_f(dispatch_get_global_queue(0, 0), NULL, task);
     
