@@ -62,6 +62,9 @@
     
     NSLog(@"开始着手2.0版本的开发");
     
+    
+    NSLog(@"%@", @"修改了bug");
+    
     dispatch_async_f(dispatch_get_global_queue(0, 0), NULL, task);
     
     self.iamgeView  = [[UIImageView alloc] init];
