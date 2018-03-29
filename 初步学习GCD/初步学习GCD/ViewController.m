@@ -71,6 +71,11 @@
     
     NSLog(@"%@", @"我看看你写了什么东西");
     
+    
+    
+    
+    
+    
     dispatch_async_f(dispatch_get_global_queue(0, 0), NULL, task);
     
     self.iamgeView  = [[UIImageView alloc] init];
