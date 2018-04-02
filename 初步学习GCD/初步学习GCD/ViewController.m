@@ -31,11 +31,14 @@
     NSLog(@"222222");
     
     
+    NSLog(@"33333333");
     
     
-    
+
     
     NSLog(@"hot分支");
+
+
     
     
     
@@ -75,6 +78,17 @@
     
     
     NSLog(@"%@", @"修改了bug");
+    
+    
+    NSLog(@"%@", @"我在分支上修改了东西 你看看");
+    NSLog(@"%@", @"我也在分支上修改了东西 你也看看");
+    
+    NSLog(@"%@", @"我看看你写了什么东西");
+    
+    
+    
+    
+    
     
     dispatch_async_f(dispatch_get_global_queue(0, 0), NULL, task);
     
