@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		825AB1C220739A790086BC2D /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825AB1C120739A790086BC2D /* TestView.m */; };
+		825AB1C520739B6C0086BC2D /* FixTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825AB1C420739B6C0086BC2D /* FixTestView.m */; };
 		9504C0261FC2C54D008D3FDF /* STSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9504C0251FC2C54C008D3FDF /* STSegmentView.m */; };
 		954EBC9E1FBEA49200A95534 /* UIView+BordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EBC9D1FBEA49200A95534 /* UIView+BordView.m */; };
 		954EBCA41FBEC7D700A95534 /* FSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EBCA31FBEC7D700A95534 /* FSLabel.m */; };
@@ -43,6 +44,8 @@
 /* Begin PBXFileReference section */
 		825AB1C020739A790086BC2D /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		825AB1C120739A790086BC2D /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		825AB1C320739B6C0086BC2D /* FixTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FixTestView.h; sourceTree = "<group>"; };
+		825AB1C420739B6C0086BC2D /* FixTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FixTestView.m; sourceTree = "<group>"; };
 		9504C0241FC2C54C008D3FDF /* STSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSegmentView.h; sourceTree = "<group>"; };
 		9504C0251FC2C54C008D3FDF /* STSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSegmentView.m; sourceTree = "<group>"; };
 		954EBC9C1FBEA49200A95534 /* UIView+BordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+BordView.h"; sourceTree = "<group>"; };
@@ -143,6 +146,8 @@
 				95F1143A1FBD75C20002A052 /* Person.m */,
 				825AB1C020739A790086BC2D /* TestView.h */,
 				825AB1C120739A790086BC2D /* TestView.m */,
+				825AB1C320739B6C0086BC2D /* FixTestView.h */,
+				825AB1C420739B6C0086BC2D /* FixTestView.m */,
 				E8E0B7A61EF265F1004D19D1 /* Main.storyboard */,
 				E8E0B7A91EF265F1004D19D1 /* Assets.xcassets */,
 				E8E0B7AB1EF265F1004D19D1 /* LaunchScreen.storyboard */,
@@ -316,6 +321,7 @@
 			files = (
 				954EBC9E1FBEA49200A95534 /* UIView+BordView.m in Sources */,
 				954EBCA41FBEC7D700A95534 /* FSLabel.m in Sources */,
+				825AB1C520739B6C0086BC2D /* FixTestView.m in Sources */,
 				E8EB77121F03CB0100594B04 /* NetworkHelper.m in Sources */,
 				E8E0B7A51EF265F1004D19D1 /* ViewController.m in Sources */,
 				95F1143B1FBD75C20002A052 /* Person.m in Sources */,
