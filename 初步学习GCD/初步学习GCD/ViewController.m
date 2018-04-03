@@ -43,6 +43,9 @@
     NSLog(@"fixbugHot分支");
     
     
+    NSLog(@"李四修改了东西");
+    
+    
 //    STSegmentView *exampleSegmentView = [[STSegmentView alloc]initWithFrame:CGRectMake(0, 30, self.view.bounds.size.width, 50)];
 //    exampleSegmentView.titleArray = @[@"test1",@"test2",@"test3",@"test4", @"test5", @"test6",@"test7",@"test8",@"test9"];
 //    exampleSegmentView.selectedBackgroundColor = [UIColor redColor];
