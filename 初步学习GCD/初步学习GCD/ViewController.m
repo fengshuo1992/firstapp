@@ -40,7 +40,7 @@
 
 
     
-    
+    NSLog(@"张三在修改bug");
     
     
 //    STSegmentView *exampleSegmentView = [[STSegmentView alloc]initWithFrame:CGRectMake(0, 30, self.view.bounds.size.width, 50)];
