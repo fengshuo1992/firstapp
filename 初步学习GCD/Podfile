@@ -1,0 +1,7 @@
+
+
+
+target ‘初步学习GCD’ do
+
+         pod 'AFNetworking'
+end

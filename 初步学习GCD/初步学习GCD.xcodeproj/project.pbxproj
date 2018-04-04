@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74042A70985DF24DC1A57AB4 /* libPods-初步学习GCD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EAC962B7B496A6915CD4229 /* libPods-初步学习GCD.a */; };
 		825AB1C220739A790086BC2D /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825AB1C120739A790086BC2D /* TestView.m */; };
 		825AB1C520739B6C0086BC2D /* FixTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825AB1C420739B6C0086BC2D /* FixTestView.m */; };
 		9504C0261FC2C54D008D3FDF /* STSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9504C0251FC2C54C008D3FDF /* STSegmentView.m */; };
@@ -42,10 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FD6D44812238C84B391CCE0 /* Pods-初步学习GCD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-初步学习GCD.release.xcconfig"; path = "Pods/Target Support Files/Pods-初步学习GCD/Pods-初步学习GCD.release.xcconfig"; sourceTree = "<group>"; };
+		2695B7C416DB026A31C44E78 /* Pods-初步学习GCD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-初步学习GCD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-初步学习GCD/Pods-初步学习GCD.debug.xcconfig"; sourceTree = "<group>"; };
 		825AB1C020739A790086BC2D /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		825AB1C120739A790086BC2D /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		825AB1C320739B6C0086BC2D /* FixTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FixTestView.h; sourceTree = "<group>"; };
 		825AB1C420739B6C0086BC2D /* FixTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FixTestView.m; sourceTree = "<group>"; };
+		8EAC962B7B496A6915CD4229 /* libPods-初步学习GCD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-初步学习GCD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9504C0241FC2C54C008D3FDF /* STSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSegmentView.h; sourceTree = "<group>"; };
 		9504C0251FC2C54C008D3FDF /* STSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSegmentView.m; sourceTree = "<group>"; };
 		954EBC9C1FBEA49200A95534 /* UIView+BordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+BordView.h"; sourceTree = "<group>"; };
@@ -65,10 +69,10 @@
 		E8E0B7AC1EF265F1004D19D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8E0B7AE1EF265F1004D19D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8E0B7B31EF265F1004D19D1 /* 初步学习GCDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "初步学习GCDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8E0B7B71EF265F1004D19D1 /* ____GCDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____GCDTests.m"; sourceTree = "<group>"; };
+		E8E0B7B71EF265F1004D19D1 /* ____GCDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ____GCDTests.m; sourceTree = "<group>"; };
 		E8E0B7B91EF265F1004D19D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8E0B7BE1EF265F1004D19D1 /* 初步学习GCDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "初步学习GCDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8E0B7C21EF265F1004D19D1 /* ____GCDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____GCDUITests.m"; sourceTree = "<group>"; };
+		E8E0B7C21EF265F1004D19D1 /* ____GCDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ____GCDUITests.m; sourceTree = "<group>"; };
 		E8E0B7C41EF265F1004D19D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8EB77101F03CB0100594B04 /* NetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkHelper.h; sourceTree = "<group>"; };
 		E8EB77111F03CB0100594B04 /* NetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkHelper.m; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74042A70985DF24DC1A57AB4 /* libPods-初步学习GCD.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A0A4EADCCA5B08AB1E3FBB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2695B7C416DB026A31C44E78 /* Pods-初步学习GCD.debug.xcconfig */,
+				0FD6D44812238C84B391CCE0 /* Pods-初步学习GCD.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9504C0231FC2C54C008D3FDF /* STSegmentView */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +122,14 @@
 			path = STSegmentView;
 			sourceTree = "<group>";
 		};
+		A0426EDD29759CC4407A571E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EAC962B7B496A6915CD4229 /* libPods-初步学习GCD.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E8E0B7911EF265F1004D19D1 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +137,8 @@
 				E8E0B7B61EF265F1004D19D1 /* 初步学习GCDTests */,
 				E8E0B7C11EF265F1004D19D1 /* 初步学习GCDUITests */,
 				E8E0B79B1EF265F1004D19D1 /* Products */,
+				0A0A4EADCCA5B08AB1E3FBB1 /* Pods */,
+				A0426EDD29759CC4407A571E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -190,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8E0B7C71EF265F1004D19D1 /* Build configuration list for PBXNativeTarget "初步学习GCD" */;
 			buildPhases = (
+				0EE1984BC0F06E51E742332A /* [CP] Check Pods Manifest.lock */,
 				E8E0B7961EF265F1004D19D1 /* Sources */,
 				E8E0B7971EF265F1004D19D1 /* Frameworks */,
 				E8E0B7981EF265F1004D19D1 /* Resources */,
+				78DBDD62FBBA1256FBE3C0D1 /* [CP] Embed Pods Frameworks */,
+				52D75F86AC0578B24BC1B070 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -313,6 +340,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EE1984BC0F06E51E742332A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-初步学习GCD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52D75F86AC0578B24BC1B070 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-初步学习GCD/Pods-初步学习GCD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78DBDD62FBBA1256FBE3C0D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-初步学习GCD/Pods-初步学习GCD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E8E0B7961EF265F1004D19D1 /* Sources */ = {
@@ -477,6 +555,7 @@
 		};
 		E8E0B7C81EF265F1004D19D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2695B7C416DB026A31C44E78 /* Pods-初步学习GCD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z9ETZL94AX;
@@ -490,6 +569,7 @@
 		};
 		E8E0B7C91EF265F1004D19D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD6D44812238C84B391CCE0 /* Pods-初步学习GCD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z9ETZL94AX;
