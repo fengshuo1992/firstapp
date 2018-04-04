@@ -40,13 +40,7 @@
 
 
     
-
     NSLog(@"张三在修改bug");
-
-    NSLog(@"fixbugHot分支");
-
-    
-    NSLog(@"李四修改了东西");
     
     
 //    STSegmentView *exampleSegmentView = [[STSegmentView alloc]initWithFrame:CGRectMake(0, 30, self.view.bounds.size.width, 50)];
